@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <div id="nome">Queijo Brabo </div>
+
+    <div>
+        <input type="checkbox" id="botao_menu">
+        <label for="botao_menu">MENU</label>
+        <nav class="menu">
+            <ul>
+                <li><a href="home.html">Pagina Inicial</a></li>
+                <li><a href="galeria.html">Galeria de Pratos</a></li>
+                <li><a href="sobre.html">Sobre o Site</a></li>
+                <li><a href="formulario.html">Formulário de Contato</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+
+    <div class="corpo">
+        <div class="cabecalho">
+
+
+            <p id="intro"> O cardápio do Queijo Brabo vai "muito além do queijo" e permite uma viagem gastronômica
+                deliciosa,
+                por sabores e
+                aromas cuidadosamente elaborados pelo Chef e perfeitamente harmonizados pelo Sommelier. A casa mantém
+                pratos de
+                muita tradição e eleitos pelos clientes como imperdíveis, mas está sempre inovando e trazendo ótimas
+                opções.
+
+            </p>
+            <br><br>
+
+            <h1 id="pratodia">Pratos do Dia:</h1>
+        </div>
+
+
+
+        <section class="container gallery-container">
+            <!--Slide-->
+            <div class="Slides fade">
+                <!-- 01 -->
+                <div class="numbertext">01 / 05</div>
+                <img class="imgslide" src="imagens/prato1.jpg" alt="Prato1" />
+                <div class="text">
+                    <p> Tournedos au Roquefort et Pommes</p>
+                    <b>25R$</b>
+                </div>
+            </div>
+
+
+            <div class="Slides fade">
+                <!-- 02 -->
+                <div class="numbertext">02 / 05</div>
+                <img class="imgslide" src="imagens/prato2.jpg" alt="Prato2" />
+                <div class="text">
+                    <p> Fondue de Fromag</p>
+                    <b>22R$</b>
+                </div>
+            </div>
+
+
+            <div class="Slides fade">
+                <!-- 04 -->
+                <div class="numbertext">03 / 05</div>
+                <img class="imgslide" src="imagens/prato3.jpg" alt="Prato3" />
+                <div class="text">
+                    <p> Mix Grill Diversi</p>
+                    <b>35R$</b>
+                </div>
+            </div>
+
+            <div class="Slides fade">
+                <!-- 04 -->
+                <div class="numbertext">04 / 05</div>
+                <img class="imgslide" src="imagens/prato4.jpg" alt="Prato4" />
+                <div class="text">
+                    <p> Mix Grill Sole Prince</p>
+                    <b>25R$</b>
+                </div>
+            </div>
+
+            <div class="Slides fade">
+                <!-- 05 -->
+                <div class="numbertext">05 / 05</div>
+                <img class="imgslide" src="imagens/prato5.jpg" alt="Prato5" />
+                <div class="text">
+                    <p>Filé alla Parmegian</p>
+                    <b>27R$</b>
+                </div>
+            </div>
+
+            <!--Final Slides-->
+
+            <!--Navigation-->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+        <!--End of galery-->
+
+
+
+        <footer class="rodape">
+            <p>By: Gabriel Bernardes | Abril de 2019 | (85) 40028922</p>
+        </footer>
+
+    </div>
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
